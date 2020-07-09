@@ -12,9 +12,9 @@ def find_min_in_nested_arrays(src)
      
       element_index += 1
     end
+  min_temps << min
   row_index += 1
   end
-  min_temps << min
-  
+ 
+  min_temps
 end
-min_temps
